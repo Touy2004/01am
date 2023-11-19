@@ -13,7 +13,7 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: ConstantColor.colorBackground,
       appBar: AppBar(
-        backgroundColor: ConstantColor.colorBackground,
+        // backgroundColor: ConstantColor.colorBackground,
         centerTitle: true,
         title: const Text(
           "ຄຳທີ່ຂ້ອຍມັກ",

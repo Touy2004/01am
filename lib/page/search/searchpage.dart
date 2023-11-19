@@ -46,7 +46,7 @@ class SearchPage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                             builder: (context) =>
-                                ItemDetailsPage(itemNumber: index + 1),
+                                ItemDetailsPage(itemNumber: "${index + 1}"),
                           ),
                         );
                       },

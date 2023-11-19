@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class ItemDetailsPage extends StatefulWidget {
-  final int itemNumber;
+  final String itemNumber;
 
   const ItemDetailsPage({Key? key, required this.itemNumber}) : super(key: key);
 
